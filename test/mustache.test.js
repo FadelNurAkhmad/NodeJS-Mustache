@@ -6,6 +6,7 @@ test("Menggunakan Mustache", () => {
   expect(data).toBe("Hello Parjo");
 });
 
+// Mustache Cache
 test("Menggunakan Mustache Cache", () => {
   Mustache.parse("Hello {{name}}"); //  kompilasi semua template terlebih dahulu
 

@@ -2,7 +2,7 @@ import Mustache from "mustache";
 
 test("Tags", () => {
   // Ingin menggunakan HTML maka pakai {{{}}}
-  //  HTML di dalam data tags akan di escape {{}}
+  // HTML di dalam data tags akan di escape {{}}
   const data = Mustache.render("Hello {{name}}, my hobby is {{{hobby}}}", {
     name: "Parjo",
     hobby: "<b>Programming</b>",
